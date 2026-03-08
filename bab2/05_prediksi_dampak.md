@@ -30,7 +30,7 @@ Dengan kata lain, model ini tidak bersaing dengan SDI — model ini adalah mekan
 
 ### D. Fondasi AI Government 2045: Investasi Infrastruktur Data Nasional
 
-Dampak paling futuristik namun paling strategis dari model ini adalah menjadi prasarat sistem kecerdasan buatan di sektor publik. Wirtz, Weyerer, dan Geyer (2019) menegaskan bahwa penerapan *Analytical AI* dan *Autonomous AI* di pemerintahan mensyaratkan data yang berkualitas, konsisten, dan dapat diakses lintas instansi. Tanpa ekosistem interoperabilitas, sistem AI pemerintah hanya bisa beroperasi dengan data parsial dari satu instansi — hasilnya pun tidak akan komprehensif.
+Dampak paling futuristik namun paling strategis dari model ini adalah menjadi prasarat sistem kecerdasan buatan di sektor publik. Selain mendukung integrasi layanan publik, arsitektur federated data governance juga membuka peluang pengembangan kecerdasan buatan di sektor publik tanpa harus memindahkan data sensitif antar instansi. Pendekatan ini sejalan dengan konsep federated learning, di mana model analitik dapat dikembangkan secara kolaboratif tanpa sentralisasi data. Wirtz, Weyerer, dan Geyer (2019) menegaskan bahwa sistem AI pemerintah hanya bisa beroperasi maksimal dengan data lintas instansi — tanpa ekosistem interoperabilitas ini, AI hanya akan terjebak pada isolasi sektoral berskala mikro.
 
 Dengan ekosistem Layer 1–4 yang berjalan pada 2035–2045, pemerintah Indonesia akan memiliki:
 - Data lintas 34+ kementerian yang terstandarisasi dan dapat diakses secara terpadu
