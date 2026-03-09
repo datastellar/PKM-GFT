@@ -1,4 +1,4 @@
-﻿# 2.2 Solusi yang Ditawarkan: Rancangan Model 4-Layer
+# 2.2 Solusi yang Ditawarkan: Rancangan Model 4-Layer
 
 
 ---
@@ -70,6 +70,22 @@ Layer teratas adalah eksekusi layanan yang dirasakan langsung oleh masyarakat da
 - **Layanan *Citizen-Centric* Berbasis *Single-View*:** Warga cukup teridentifikasi sekali di Dukcapil. Setiap kali warga mengajukan layanan di instansi lain (misal beasiswa Kemendikbud), model distribusi data otomatis akan memverifikasi syarat tanpa mengharuskan warga mengunggah KTP berulang kali, sesuai prinsip _once-only principle_.
 - **Dashboard Kebijakan *Real-Time*:** Pembuat kebijakan di tingkat pusat dapat mengeksekusi *query* komprehensif melintasi seluruh domain untuk merumuskan simulasi dampak kebijakan tanpa memindahkan wujud fisik basis data masing-masing instansi.
 - **Fondasi *Federated AI Government* 2045:** Wirtz et al. (2019) dan World Bank menegaskan integrasi data sebagai syarat mutlak pemanfaatan kecerdasan buatan. Melalui arsitektur terdesentralisasi ini, infrastruktur siap menopang algoritma *Federated Learning* ─ model AI masa depan milik pemerintah dapat "belajar" kebijakan dari server antar-kementerian, menciptakan kecerdasan analitik level dewa tanpa membahayakan kedaulatan data di tiap institusi.
+
+### Translasi Teknis: *Social Data Infrastructure Platform*
+Untuk membuktikan kelayakan implementasi (*feasibility*) dari model makro 4-Layer di atas, gagasan ini mengusulkan agar arsitektur tersebut diturunkan menjadi **10 modul _microservices_ terintegrasi** dalam wujud *Social Data Infrastructure Platform*. Platform ini secara khusus mensimulasikan penyelesaian krisis data bantuan sosial (bansos) sebagai *use-case* utamanya:
+
+1. **External Actors Layer**: _Endpoint_ interaksi di mana warga dapat mengecek status bansos, sementara pemerintah (auditor) memiliki akses terhadap *dashboard* distribusi bantuan.
+2. **Application Layer**: Portal *Citizen* dan aplikasi *Social Assistance* yang menjadi antarmuka utama pelayanan.
+3. **Decision Engine Layer**: Otak operasional berisikan *Eligibility Scoring Engine* (penentu kelayakan bansos), *Fraud Detection*, serta *Policy Simulation Engine*.
+4. **AI / Analytics Layer**: Modul cerdas yang menjalankan *Federated Learning Coordinator* untuk memprediksi kelayakan warga dan membaca anomali pergerakan jaringan mafia bansos (*Fraud Graph Model*) tanpa menyentralisasi data mentah.
+5. **Feature Engineering Layer**: Mengonversi raw-data menjadi fitur saintifik seperti *income_ratio*, *asset_score*, dan *dependency_ratio*.
+6. **Government Data Exchange Layer**: Integrasi dari Portal Satu Data (Datahub Komdigi) yang bertindak sebagai *API Gateway*, *Metadata Catalog* (berbasis INDAH BPS), dan *Schema Mapping Engine* (layer 3 makro).
+7. **Data Mesh Domain Layer**: Unit atomik (*layer 2 makro*) yang menaungi *database* kementerian secara merdeka (Dukcapil untuk Identitas, DTKS untuk Bansos, BPJS, SAMSAT, PLN, DJP).
+8. **Fraud Detection Graph Layer**: Node komputasi berlapis (*citizen, household, bank account, vehicle*) yang membaca relasi (*edges*) untuk mendeteksi *fraud* penerima bantuan sosial.
+9. **End-to-End Flow**: Pipa otomatis (*pipeline*) yang memproses NIK warga melewati lapisan *Application, Data Exchange, Feature Engineering*, hingga *Decision Engine* dalam skala milidetik (*real-time processing*).
+10. **Sistem Output Analitik**: Produk akhir berupa *Eligibility Score* (Skor Kelayakan), *Fraud Risk Score*, dan Simulasi Dampak Kebijakan.
+
+Translasi teknis arsitektur 10 modul ini mengukuhkan argumentasi bahwa model interoperabilitas makro yang mendasarinya (4-Layer) dapat diwujudkan secara utuh oleh *engineer* pemerintahan saat ini. Keberadaan komponen *Feature Engineering* dan *Graph Network* membuktikan bahwa ini bukan sekadar portal aplikasi, melainkan tulang punggung **Infrastruktur Data Sosial Nasional** massal yang kelak bisa direplikasi untuk beasiswa, subsidi energi, hingga kredit UMKM.
 
 ### Novelty Model Ini
 

@@ -1,0 +1,876 @@
+ 
+PROGRAM KREATIVITAS MAHASISWA  
+GAGASAN FUTURISTIK TERTULIS  
+RANCANGAN MODEL INTEROPERABILITAS SPBE 
+BERBASIS FEDERATED DATA GOVERNANCE UNTUK 
+MENDUKUNG INTEGRASI LAYANAN PUBLIK DIGITAL 
+INDONESIA 
+ 
+ 
+ 
+ 
+ 
+Diusulkan oleh: 
+Beryl Cholif Arrahman Rahardjo —  NIM: 2902828720 —  Angkatan 2025 
+[Nama Anggota 1] —  NIM: [NIM Anggota 1] —  Angkatan [Tahun] 
+[Nama Anggota 2] —  NIM: [NIM Anggota 2] —  Angkatan [Tahun] 
+Universitas Bina Nusantara 
+Jakarta, 2026 
+----------------Page (0) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 2 dari 16
+ 
+DAFTAR ISI 
+BAB 1 PENDAHULUAN 1 
+    1.1 Latar Belakang                                                                                                            x 
+    1.2 Rumusan Gagasan                                                                                                      x 
+    1.3 Tujuan                                                                                                                         x 
+    1.4 Manfaat                                                                                                                       x 
+BAB 2 GAGASAN 4 
+    2.1 Kondisi Terkini yang Menjadi Pemicu Gagasan                                                        x 
+    2.2 Solusi yang Ditawarkan: Rancangan Model 4-Layer                                                 x 
+    2.3 Pihak-Pihak yang Terlibat                                                                                          x 
+    2.4 Langkah Strategis & Timeline Implementasi                                                             x 
+    2.5 Prediksi Dampak Sistemik                                                                                          x 
+BAB 3 KESIMPULAN                                                                                                        x 
+DAFTAR PUSTAKA                                                                                                           x 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+----------------Page (1) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 3 dari 16
+ 
+BAB 1 
+PENDAHULUAN 
+1.1 Latar Belakang 
+Transformasi     digital     pemerintahan     sering     dipersepsikan     sebagai 
+pengembangan aplikasi baru atau pemanfaatan teknologi mutakhir seperti AI dan 
+big  data.  Namun  digitalisasi  tanpa  fondasi  tata  kelola  data  yang  kuat  justru 
+berpotensi   memperbesar   masalah   yang   sudah   ada.   Sistem   digital   mampu 
+mempercepat  pengambilan  keputusan,  tetapi  apabila  data  yang  digunakan  tidak 
+akurat,  tidak  terstandarisasi,  atau  tidak  memiliki  kejelasan  kepemilikan,  maka 
+dampak kesalahan  yang  dihasilkan  juga akan  menjadi  lebih  cepat  dan  lebih  luas. 
+Studi   komprehensif   terhadap   proyek e-government   menemukan   bahwa   35% 
+inisiatif  mengalami  kegagalan total  dan  50%  lainnya  tergolong  kegagalan parsial 
+akibat abainya pemerintah terhadap aspek tata kelola dan budaya organisasi (Heeks, 
+2003). 
+Kondisi   tersebut   tercermin   dalam   implementasi   Sistem   Pemerintahan 
+Berbasis  Elektronik  (SPBE)  di  Indonesia.  Laporan  Ombudsman  RI  mencatat 
+terdapat sekitar 27.400 aplikasi milik pemerintah pusat dan daerah yang mayoritas 
+beroperasi  secara  silo  dan  menyebabkan  pemborosan  anggaran  IT  yang  tidak 
+terukur.  Berbagai  inisiatif  integrasi  sistem  pemerintahan  di  Indonesia  selama  ini 
+lebih  banyak  menitikberatkan  pada  integrasi  teknis  antar  aplikasi  dan  platform. 
+Pendekatan ini  penting,  namun  tanpa fondasi  tata  kelola  data lintas  instansi  yang 
+jelas,  integrasi  teknis  berisiko  menghasilkan  konektivitas  sistem  yang  rapuh  dan 
+tidak  berkelanjutan.  Laporan  Indeks  SPBE  Nasional  (2022)  menegaskan  hal  ini: 
+aspek  interoperabilitas  secara  persisten  menjadi  domain  dengan  nilai  terendah, 
+menahan indeks nasional Indonesia bergeming pada angka 2,34 dari skala 5. Situasi 
+ini  menunjukkan  bahwa  permasalahan  utama  bukan  terletak  pada  keterbatasan 
+teknologi,  melainkan pada  belum  terbentuknya mekanisme tata  kelola  data lintas 
+instansi yang terstandarisasi dan operasional. 
+Dalam  konteks  Indonesia,  berbagai  inisiatif  seperti  Satu  Data  Indonesia, 
+pengembangan  portal  data  nasional,  serta  platform  interoperabilitas  SPBE  telah 
+menunjukkan kemajuan dalam aspek standar metadata dan integrasi teknis. Namun 
+mekanisme tata kelola data  lintas instansi yang operasional — termasuk penetapan 
+kepemilikan data, tanggung jawab kualitas data, dan forum koordinasi pengelolaan 
+data— belum  berkembang  secara  memadai.  BRIN  (2023)  mengungkap  bahwa 
+pergerakan parsial ini berujung pada resistensi birokra si, di mana mekanisme tata 
+kelola  data  lintas  instansi  yang  menghubungkan  semuanya  secara  operasional 
+masih sangat terbatas. 
+Ketiadaan    mekanisme    tata    kelola    tersebut    menimbulkan    berbagai 
+konsekuensi,  termasuk  rendahnya  kepercayaan  antar  instansi  untuk  berbagi  data 
+serta ketergantungan pada perjanjian kerja sama bilateral yang tidak terstandarisasi. 
+----------------Page (2) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 4 dari 16
+ 
+Dalam  kondisi  seperti  ini,  integrasi  teknis  antar  sistem  menjadi  sulit  untuk 
+berkembang    secara    berkelanjutan.    Oleh    karena    itu,    transformasi    digital 
+pemerintahan  perlu  didekati  melalui   governance-first  approach ,  yaitu  dengan 
+memastikan kejelasan kepemilikan data, standar metadata bersama, dan mekanisme 
+koordinasi lintas instansi sebelum integrasi teknis sistem dilakukan. 
+Berdasarkan   permasalahan   tersebut,   gagasan   ini   mengusulkan Model 
+Interoperabilitas  SPBE  Berbasis  Federated  Data  Governance,  sebuah  kerangka 
+arsitektur sistem pemerintahan yang menempatkan tata kelola data sebagai fondasi 
+utama   dalam   integrasi   layanan   publik   digital.   Model   ini   tidak   bertujuan 
+menggantikan sistem yang telah ada, melainkan menyediakan kerangka koordinasi 
+yang  memungkinkan  sistem  milik  berbagai  instansi  tetap  otonom  namun  dapat 
+saling  terhubung  melalui  standar  data  dan  mekanisme tata  kelola  yang  disepakati 
+bersama. 
+1.2 Rumusan Gagasan 
+Berdasarkan  identifikasi  masalah  pada  bagian  sebelumnya,  teridentifikasi 
+bahwa   kegagalan   interoperabilitas   SPBE   di   Indonesia   tidak   bermuara   pada 
+kekurangan    regulasi    atau    keterbatasan    teknologi,    melainkan    pada    belum 
+tersedianya mekanisme  tata kelola data  (data governance ) yang terstandarisasi dan 
+mengikat   lintas   kementerian.   Ketidakjelasan    data   owner,   perbedaan   standar 
+metadata  antar  sistem,  serta  ketiadaan  mekanisme  berbagi  data  bersama  menjadi 
+hambatan  struktural  yang  selama  ini  luput  dari  perhatian  (Putra,  Santoso,  & 
+Hasibuan,  2023).  Salah satu  kerangka  kerja yang  dapat  dijadikan landasan  untuk 
+menjawab  masalah  ini  adalah    DAMA-DMBOK  (Data  Management  Body  of 
+Knowledge ),  yang  menyediakan  praktik  terbaik  dalam  tata  kelola  data mencakup 
+penetapan  data owner , metadata management,  dan data architecture, aspek-aspek 
+yang justru menjadi akar persoalan SPBE saat ini. 
+Berdasarkan  permasalahan  tersebut,  gagasan  ini  mengusulkan Rancangan 
+Model   Interoperabilitas   SPBE   Berbasis Federated   Data   Governance   untuk 
+Mendukung  Integrasi  Layanan  Publik  Digital  Indonesia:  sebuah  model  arsitektur 
+sistem informasi berlapis yang menempatkan tata kelola data sebagai fondasi utama 
+sebelum  membangun  integrasi  teknis  antar  sistem  pemerintahan.  Model  ini  tidak 
+bertujuan menggantikan sistem yang telah ada, melainkan menyediakan kerangka 
+bersama   yang   menjamin   setiap   sistem   dapat   saling   berkomunikasi   secara 
+terstandarisasi. 
+Sejalan  dengan  identifikasi  masalah di  atas,  gagasan  ini  difokuskan  untuk 
+menjawab tiga rumusan pertanyaan berikut: 
+1.   Bagaimana    kondisi    tata    kelola    data    yang    saat    ini    menghambat 
+interoperabilitas  sistem  informasi  lintas  kementerian  dalam  implementasi 
+SPBE di Indonesia? 
+----------------Page (3) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 5 dari 16
+ 
+2.   Bagaimana  prinsip-prinsip  framework  DAMA-DMBOK  dapat  diadaptasi 
+untuk  merancang  model  interoperabilitas  berlapis  (4-layer  model)  yang 
+sesuai dengan konteks pemerintahan multi-instansi? 
+3.   Bagaimana   mekanisme   operasional   model   tersebut   dapat   mendukung 
+pertukaran  dan  integrasi  data  lintas  instansi  secara  berkelanjutan  dalam 
+layanan publik digital? 
+1.3 Tujuan 
+Berdasarkan  rumusan  masalah  yang  diidentifikasi,  gagasan  ini  disusun 
+dengan tiga tujuan yang saling berkesinambungan: 
+4.   Mengidentifikasi     kondisi     tata     kelola     data     yang     menghambat 
+interoperabilitas  SPBE  lintas  kementerian  di  Indonesia,  dengan  mengacu 
+pada kajian Putra, Santoso, dan Hasibuan (2023) yang mendokumentasikan 
+fragmentasi sistem sebagai tantangan utama implementasi SPBE. 
+5.   Merancang   model   interoperabilitas   berlapis   (4-Layer   Model)   berbasis 
+kerangka  kerja  DAMA-DMBOK  yang  dapat  diadaptasi  untuk  konteks 
+pemerintahan multi-instansi, terdiri dari: Governance Layer, Domain Layer, 
+Interoperability Layer, dan Service Layer. 
+6.   Menyusun peta jalan implementasi bertahap (roadmap) yang realistis untuk 
+adopsi model tata kelola data nasional dalam rentang 2025–2045, mengikuti 
+pendekatan  phased  implementation  yang  direkomendasikan  Bank  Dunia 
+dalam konteks Satu Data Indonesia (Maghfirra, 2024). 
+1.4 Manfaat 
+Apabila  model  yang  diusulkan  dapat  diadopsi  sebagai  kerangka  referensi 
+pengembangan    arsitektur    digital    pemerintah,    gagasan    ini    diproyeksikan 
+memberikan manfaat nyata bagi tiga pihak utama: 
+1. Bagi Pemerintah dan Pembuat Kebijakan 
+•    Efisiensi Anggaran Teknologi Informasi —  model ini menyediakan standar 
+bersama sehingga komponen sistem dapat digunakan secara shared services, 
+mengurangi duplikasi penganggaran yang didokumentasikan oleh Yuliana 
+dkk. (2023). 
+•    Kebijakan Publik yang Lebih Berbasis Data —  mekanisme single source of 
+truth memungkinkan pengambilan kebijakan lebih akurat dan real-time. 
+•    Peningkatan Indeks SPBE  —  model ini memberikan jalur terstruktur pada 
+aspek interoperabilitas yang secara konsisten menjadi domain paling lemah 
+dalam evaluasi SPBE. 
+2. Bagi Masyarakat sebagai Pengguna Layanan Publik 
+----------------Page (4) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 6 dari 16
+ 
+•    Kemudahan  Akses  Layanan  Terpadu —   masyarakat  tidak  perlu  mengisi 
+data yang  sama berulang kali  untuk  layanan  di  instansi  berbeda;  identitas 
+kependudukan   yang   sudah   terverifikasi   di   Dukcapil   dapat   langsung 
+digunakan untuk layanan kesehatan, pendidikan, maupun perpajakan. 
+•    Layanan  Darurat  dan  Sosial  yang  Lebih  Responsif —   integrasi  data yang 
+terstandarisasi memungkinkan respon lintas instansi yang lebih cepat untuk 
+pencairan  bantuan  sosial,  rujukan  layanan  kesehatan,  dan  penanganan 
+kedaruratan. 
+3. Bagi Pengembangan Keilmuan Sistem Informasi 
+•    Kontribusi  Akademik  —   gagasan  ini  mengisi  celah  penelitian  tentang 
+adaptasi  kerangka  kerja  manajemen  data  korporat  (DAMA-DMBOK)  ke 
+dalam konteks pemerintahan multi-instansi yang masih sangat sedikit dikaji 
+di Indonesia. 
+•    Model  Referensi  bagi  Penelitian  Selanjutnya —   rancangan  4-layer  yang 
+dihasilkan  dapat  menjadi  landasan  bagi  penelitian  lanjutan untuk  menguji 
+atau  mengembangkan  mekanisme  implementasi  di  domain  pemerintahan 
+yang lebih spesifik. 
+BAB 2 
+GAGASAN 
+2.1 Kondisi Terkini yang Menjadi Pemicu Gagasan 
+Tantangan  interoperabilitas  sistem  informasi  antar  instansi  pemerintah 
+bukanlah   persoalan   yang   unik   bagi   Indonesia.   Eynon   dan   Margetts   (2007) 
+mengidentifikasi bahwa hambatan terbesar dalam adopsi e-government di berbagai 
+negara  adalah siloed  thinking  kecenderungan  setiap  unit  organisasi  untuk  bekerja 
+secara    tertutup    dan    melindungi    datanya    sendiri.    Hambatan    ini    bersifat 
+organisasional  dan  kultural,  bukan  teknis.  Bahkan  ketika  infrastruktur  teknologi 
+memadai, tanpa mekanisme koordinasi yang mengikat, int egrasi tidak akan terjadi 
+secara berkelanjutan. 
+Di Indonesia, fenomena ini terdokumentasi secara sistematis. Kajian Putra, 
+Santoso,  dan  Hasibuan  (2023)  menemukan  bahwa  fragmentasi  sistem  adalah 
+tantangan  yang  paling  dominan:  setiap  kementerian  membangun  infrastruktur 
+digitalnya sendiri tanpa standar per tukaran data yang mengikat, menghasilkan silo 
+data yang mengakibatkan duplikasi dan inkonsistensi informasi di hampir seluruh 
+sektor pemerintahan. 
+Kondisi  ini  bahkan  terjadi  pada  implementasi  yang  dianggap  berhasil. 
+Pemerintah    Kota    Tangerang    berhasil    membangun    Super    Mantab    yang 
+mengintegrasikan lebih dari 30 modul layanan pemerintah daerah secara internal. 
+Namun  sistem  ini  tidak  dapat  bertukar  data  dengan  KPU,  BPJS,  BPS,  maupun 
+----------------Page (5) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 7 dari 16
+ 
+kementerian  di  tingkat  nasional  (Nugroho,  Hamid,  &  Pratama,  2021).  Ini  bukan 
+kegagalan  teknologi   Super  Mantab  secara  teknis  berfungsi  baik.  Ini  adalah 
+kegagalan ekosistem: tidak ada standar data bersama yang memungkinkan sistem -
+sistem tersebut untuk saling berkomunikasi secara semantik. 
+Pemerintah  Indonesia  sebenarnya  telah  merespons  tantangan  ini  melalui 
+serangkaian regulasi.  Perpres  No.  132  Tahun  2022  telah  menyediakan  cetak biru 
+Arsitektur  SPBE  Nasional.  Perpres  No.  82  Tahun  2023  mendorong  percepatan 
+GovTech.  Permenkomdigi  No.  6  Tahun 2025  menetapkan  standar  teknis  terkini. 
+Namun  seperti  yang  diidentifikasi  oleh  Putra  dkk.  (2023),  regulasi-regulasi  ini 
+mengatur apa yang harus dibangun secara teknis, tetapi tidak menjawab siapa yang 
+bertanggung  jawab  atas  data  dan  bagaimana  standar  pengelolaannya  disepakati 
+antar instansi. 
+Secara   kelembagaan,   implementasi   pengelolaan   data   pemerintah   di 
+Indonesia saat ini berjalan secara terpisah. Standarisasi metadata banyak dipimpin 
+oleh   BPS   melalui   statistik   sektoral,   integrasi   sistem   dikembangkan   melalui 
+arsitektur SPBE, sementara penyedi aan data publik difasilitasi melalui portal Satu 
+Data Indonesia. Meskipun ketiga komponen ini penting, koordinasi tata kelola yang 
+menghubungkan ketiganya secara operasional masih terbatas. 
+Akibatnya,  bahkan  inisiatif  Satu  Data  Indonesia  (SDI)  yang  diamanatkan 
+Perpres  No.  39/2019  pun  mengalami  stagnasi.  BRIN  (2023)  mengungkap  bahwa 
+program  SDI  menghadapi  hambatan  serius:  perbedaan  standar  metadata  lintas 
+kementerian  membuat  integrasi  sulit  se cara  komputasi,  sementara  pendekatan 
+implementasi  yang  top-down  tanpa  forum  kolaborasi  teknis  antar  pemilik  data 
+justru menimbulkan resistensi. Dari pola ini teridentifikasi satu akar masalah yang 
+konsisten:  mekanisme  tata  kelola  data  lintas  instansi  belum  tersedia   tidak  ada 
+kejelasan tentang pemilik data, tidak ada standar metadata yang mengikat, dan tidak 
+ada forum yang memiliki otoritas untuk menyepakati standar tersebut. 
+2.2 Solusi yang Ditawarkan: Rancangan Model 4-Layer 
+Berdasarkan  identifikasi  kondisi  dan  kesenjangan  yang  diuraikan  pada 
+bagian sebelumnya, gagasan ini mengusulkan Rancangan Model Interoperabilitas 
+SPBE  Berbasis  Federated  Data  Governance  sebagai  sebuah  kerangka  arsitektur 
+sistem   informasi   berlapis.   Model   ini   mengadopsi   prinsip   governance-first: 
+memastikan bahwa kejelasan kepemilikan data, standar metadata, dan mekanisme 
+tata  kelola  sudah  tersedia  sebelum  integrasi  teknis  dilakukan.  Klischewski  dan 
+Scholl   (2008)   menegaskan   bahwa   interoperabilitas   teknis   saja   tidak   akan 
+menghasilkan  manfaat  nyata  jika  kualitas  dan  standar  data  dari  sistem-sistem 
+sumber masih berbeda-beda. 
+Model ini dirancang secara berjenjang dari fondasi ke atas, terdiri dari empat 
+layer yang saling bergantung sebagaimana disajikan dalam Gambar 1 dan Tabel 1: 
+----------------Page (6) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 8 dari 16
+ 
+ 
+Gambar 1. Model Interoperabilitas SPBE Berbasis Federated Data Governance (4-
+Layer) 
+Tabel 1. Arsitektur Rancangan Model 4-Layer Interoperabilitas SPBE 
+Layer
+ 
+Nama & Fungsi Utama
+ 
+Komponen Kunci
+ 
+Layer 4
+ 
+SERVICE LAYER
+ 
+Layanan publik terintegrasi 
+yang dirasakan langsung oleh 
+masyarakat
+ 
+Portal terpadu, Super-App Gov, single-
+view NIK, dashboard kebijakan lintas 
+domain, fondasi AI Government 2045
+ 
+Layer 3
+ 
+INTEROPERABILITY 
+LAYER
+ 
+Infrastruktur teknis pertukaran 
+data antar domain
+ 
+API Exchange Nasional (Government 
+Service Bus), Data Catalog Nasional, 
+Semantic Bridge antar skema metadata
+ 
+Layer 2
+ 
+DOMAIN LAYER
+ 
+Pengorganisasian data 
+berdasarkan 5 domain 
+fungsional prioritas
+ 
+5 domain: Kependudukan (Dukcapil), 
+Kesehatan (Kemenkes), Pendidikan 
+(Kemendikbud), Ekonomi (BI), Keuangan 
+Negara (Kemenkeu/BPS)  dengan standar 
+metadata per domain (Data Mesh)
+ 
+Layer 1
+ 
+GOVERNANCE LAYER  
+FONDASI
+ 
+Data Owner (Eselon I per K/L), Data 
+Steward Committee (SK KemenPAN-RB), 
+Kebijakan Metadata Bersama  Non-
+Invasive Data Governance (Seiner, 2014)
+ 
+----------------Page (7) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 9 dari 16
+ 
+Layer
+ 
+Nama & Fungsi Utama
+ 
+Komponen Kunci
+ 
+Fondasi tata kelola yang harus 
+tersedia sebelum layer lain 
+dapat berfungsi
+ 
+ 
+Yang membedakan model ini dari upaya integrasi SPBE sebelumnya adalah 
+pendekatan  berlapis  yang  dimulai  dari  governance.  Kebanyakan  inisiatif  SPBE 
+Indonesia   selama   ini   langsung   menyasar   Layer   3   (integrasi   teknis)   tanpa 
+membangun Layer 1 dan Layer 2 terlebih  dahulu, sehingga menghasilkan koneksi 
+yang  rapuh  dan  tidak  berkelanjutan.  Model  ini  secara  eksplisit  menempatkan 
+penetapan  data  owner,  standarisasi  metadata,  dan  mekanisme  tata  kelola  sebagai 
+prasyarat  bukan sebagai tambahan di akhir  dari seluruh proses integrasi. 
+Dalam  Layer  2,  prinsip  arsitektur  Data  Mesh  (Dehghani,  2020)  menjadi 
+relevan: setiap domain mengelola datanya sendiri sebagai "produk data" yang siap 
+dikonsumsi oleh domain lain, tanpa harus menyerahkan fisik database -nya ke satu 
+tempat  terpusat.  Kontrol  tetap terdesentralisasi  di domain  masing-masing,  namun 
+terikat  oleh  standar  metadata  bersama  yang  ditetapkan  di  Layer  1.  Permana  dan 
+Susanto  (2024)  telah  membuktikan  secara  empiris  bahwa  pendekatan  desain  tata 
+kelola   berbasis   DAMA -DMBOK   dapat   diimplementasi kan   dalam   konteks 
+Indonesia,  menghasilkan  standar  metadata  yang  ketat  sekaligus  membuka  ruang 
+integrasi operasional antar departemen. 
+2.3 Pihak-Pihak yang Terlibat 
+Keberhasilan  implementasi  model  interoperabilitas  ini  bergantung  pada 
+keterlibatan  aktif  dari  sejumlah  aktor  kelembagaan  yang  memiliki  kewenangan, 
+kompetensi,  dan  data  yang  saling  melengkkapi.  Eynon  dan  Margetts  (2007) 
+menekankan  bahwa  integrasi  lintas  instansi  tidak  dapat  berjalan  tanpa  adanya 
+boundary-spanning organization  lembaga atau forum yang memiliki otoritas untuk 
+mengkoordinasikan   berbagai   kepentingan.   Dalam   model   ini,   peran   tersebut 
+diemban  secara  kolektif  oleh  Data  Steward  Committee  yang  dibentuk  di  bawah 
+koordinasi KemenPAN-RB, tanpa memerlukan pembentukan lembaga baru melalui 
+undang-undang. 
+Tabel 2. Aktor dan Peran dalam Model Interoperabilitas SPBE 
+Aktor
+ 
+Peran dalam Model
+ 
+Layer Terkait
+ 
+Kemkomdigi
+ 
+Koordinator arsitektur teknologi SPBE 
+nasional; menetapkan standar API dan 
+protokol interoperabilitas; pembina 
+Government Service Bus
+ 
+Layer 3–4
+ 
+KemenPAN-RB
+ 
+Koordinator kebijakan implementasi SPBE 
+lintas K/L; menerbitkan SK penetapan 
+jabatan fungsional Data Steward di setiap 
+kementerian
+ 
+Layer 1
+ 
+----------------Page (8) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 10 dari 16
+ 
+Aktor
+ 
+Peran dalam Model
+ 
+Layer Terkait
+ 
+BSSN
+ 
+Menetapkan dan mengaudit standar 
+keamanan informasi (Peraturan BSSN 
+No.4/2021) pada semua lapisan pertukaran 
+data
+ 
+Layer 3
+ 
+Kemenkeu
+ 
+Instansi pilot utama untuk Layer 1–2  sistem 
+SAKTI dan SPAN adalah ERP pemerintah 
+paling matang di Indonesia
+ 
+Layer 1–2
+ 
+Kemendagri / 
+Dukcapil
+ 
+Data Owner Domain Kependudukan  
+mengelola basis data NIK nasional (SIAK) 
+yang menjadi identitas digital dasar bagi 
+semua domain lain
+ 
+Layer 2
+ 
+Kemenkes, 
+Kemendikbud, 
+BPS
+ 
+Data Owner Domain Kesehatan, 
+Pendidikan, dan Statistik Nasional  domain 
+prioritas berikutnya dalam pilot standarisasi 
+metadata
+ 
+Layer 2
+ 
+Pemkot 
+Tangerang
+ 
+Model implementasi daerah  Super Mantab 
+sebagai prototipe integrasi lokal yang 
+membuktikan kemampuan teknis sudah ada 
+di level daerah
+ 
+Layer 3–4
+ 
+BRIN / 
+Perguruan 
+Tinggi
+ 
+Pengembangan standar metadata, riset 
+evaluasi maturity model, dan kajian 
+independen implementasi per fase
+ 
+Layer 1–2
+ 
+Data Steward 
+Committee
+ 
+Forum koordinasi lintas K/L yang 
+menyepakati dan menegakkan standar 
+metadata bersama; bukan lembaga baru 
+melainkan formalisasi via SK Menpan
+ 
+Layer 1
+ 
+ 
+2.4 Langkah Strategis & Timeline Implementasi 
+Implementasi   model   interoperabilitas   SPBE   berbasis   federated   data 
+governance tidak dapat dilakukan secara revolusioner atau sekaligus. Pengalaman 
+Estonia  membuktikan  bahwa  pencapaian  ekosistem  e -government  kelas  dunia 
+membutuhkan waktu hampir dua dekade   dimulai dari penetapan kebijakan dasar 
+pada  awal  2000-an  hingga  X-Road  menghubungkan  lebih  dari  900  sistem  pada 
+periode berikutnya (Kalvet, 2012). Roadmap Indonesia 2025–2045 yang diusulkan 
+di sini adalah bentang waktu 20 tahun dengan empat fase yang saling bergantung. 
+Pendekatan ini  mengikuti  prinsip  Non-Invasive Data Governance  (Seiner, 
+2014): perubahan dimulai dari formalisasi apa yang sudah ada, bukan membangun 
+ulang dari nol. Bank Dunia juga merekomendasikan bahwa integrasi data berskala 
+nasional  harus  dimulai  dari domain  yang  paling  krusial  secara  bertahap,  bukan 
+mengintegrasikan semua kementerian sekaligus (Maghfirra, 2024). 
+Tabel 3. Roadmap Implementasi 4 Fase (2025–2045) 
+----------------Page (9) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 11 dari 16
+ 
+Fase
+ 
+Periode
+ 
+Nama Fase
+ 
+Kegiatan Utama
+ 
+Indikator 
+Keberhasilan
+ 
+1
+ 
+2025–
+2027
+ 
+Fondasi 
+Governance
+ 
+Audit tata kelola data di 5 K/L 
+pilot; pemetaan data owner dan 
+standar data eksisting per 
+domain; pembentukan Data 
+Steward Committee via SK 
+KemenPAN-RB; penyusunan 
+kebijakan metadata nasional 
+pertama
+ 
+SK Data Steward 
+Committee terbit; 
+peta silo data 5 
+domain tersedia; data 
+owner tiap domain 
+terdefinisi resmi
+ 
+2
+ 
+2027–
+2030
+ 
+Standarisasi 
+Domain
+ 
+Penetapan Standar Metadata 
+Nasional (National Metadata 
+Registry) untuk 5 domain 
+prioritas; piloting API antar 5 
+K/L (Government Service Bus 
+versi awal); formalisasi kamus 
+data per domain
+ 
+Metadata Registry 
+nasional aktif; API 
+lintas 5 K/L 
+berfungsi; Indeks 
+SPBE mulai naik di 
+aspek 
+interoperabilitas
+ 
+3
+ 
+2030–
+2035
+ 
+Integrasi 
+Nasional
+ 
+Rollout Government Service 
+Bus ke seluruh 34+ K/L; Data 
+Catalog Nasional beroperasi 
+penuh; Single-View NIK 
+berbasis Dukcapil tersedia di 
+semua layanan publik; 
+dashboard kebijakan lintas 
+kementerian aktif
+ 
+Indeks SPBE 
+Nasional mencapai 
+>= 3,5 dari skala 5; 
+warga dapat 
+mengakses seluruh 
+layanan dengan 1 
+identitas NIK
+ 
+4
+ 
+2035–
+2045
+ 
+AI 
+Government
+ 
+Penerapan Analytical AI 
+berbasis data lintas 
+kementerian untuk prediksi 
+kebutuhan layanan; 
+Autonomous AI pilot untuk 
+rekomendasi kebijakan; 
+Indonesia sebagai benchmark 
+tata kelola data pemerintah di 
+ASEAN
+ 
+Sistem AI 
+pemerintah 
+beroperasi dengan 
+data terintegrasi; 
+Indonesia masuk 5 
+besar government AI 
+readiness ASEAN
+ 
+ 
+Sebuah kajian literatur terhadap kegagalan e -government oleh Heeks (2003) 
+menemukan bahwa 35% proyek sistem pemerintah gagal total akibat design -reality 
+gap    kesenjangan  antara rancangan  sistem  dengan  realitas  organisasi.  Karenanya, 
+implementasi  model  ini  harus  didampingi  oleh  mitigasi  organisasional,  bukan 
+sekadar mitigasi teknologi:  
+Tabel 4. Potensi Risiko dan Strategi Mitigasi  
+Identifikasi Risiko
+ 
+Akar Permasalahan
+ 
+Strategi Mitigasi
+ 
+Resistensi Berbagi Data / 
+Ego Sektoral
+ 
+Trust deficit antar institusi 
+dan ketakutan "disalahkan" 
+jika data keluar (OECD, 
+2019)
+ 
+Model desentralisasi GLASS: 
+data tidak diambil alih 
+kementerian lain, melainkan 
+diam di instansi asal dan 
+diakses secara federated
+ 
+----------------Page (10) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 12 dari 16
+ 
+Identifikasi Risiko
+ 
+Akar Permasalahan
+ 
+Strategi Mitigasi
+ 
+Ketidakpatuhan Standar 
+Domain
+ 
+Kultur operasional instansi 
+(Heeks model) yang tidak 
+sejalan dengan arahan pusat
+ 
+Penetapan insentif anggaran 
+SPBE dari Kemenkeu: alokasi 
+pendanaan IT hanya cair jika 
+instansi memenuhi standar 
+metadata Layer 1
+ 
+Kesulitan Migrasi Sistem 
+Lama (Silo)
+ 
+Keengganan pegawai 
+mengubah cara kerja 
+administratif yang sudah 
+nyaman bertahun-tahun
+ 
+Pemilihan 5 K/L Prioritas 
+sebagai pilot awal untuk 
+menciptakan success story, 
+bukan memaksakan integrasi 
+34 K/L secara serentak
+ 
+ 
+2.5 Prediksi Dampak Sistemik 
+Apabila  model  interoperabilitas  SPBE  berbasis  federated data governance 
+ini  dapat  diadopsi  secara  bertahap  oleh  pemerintah,  dampak  yang  diproyeksikan 
+tidak hanya bersifat teknis, tetapi sistemik dan lintas sektor. Dampak tersebut dapat 
+dikelompokkan dalam empat dimensi. 
+A. Efisiensi Pemerintahan: Hentikan Duplikasi Anggaran TI 
+Salah satu pemborosan paling nyata dari fragmentasi SPBE adalah duplikasi 
+pembangunan  sistem  dengan  fungsi  serupa  di  kementerian  yang  berbeda.  Kajian 
+Yuliana  dkk.  (2023)  tentang  Kementerian  BUMN  mengungkap  bahwa  ketiadaan 
+standar    interoperabilitas    memicu    pengadaan    aplikasi    yang    berulang    dan 
+penyimpanan  data  yang  redundan.  Dengan  model  ini,  komponen  sistem  dapat 
+digunakan  secara  shared  services   satu  standar  API,  satu  direktori  data  nasional  
+sehingga    anggaran    yang    selama    ini    terfragmentasi    dapat    dialihkan    ke 
+pengembangan kualitas layanan. 
+B. Peningkatan Kualitas Layanan Publik: Warga di Pusat 
+Silo  mentality  yang  mendominasi  birokrasi  Indonesia  saat  ini  berdampak 
+langsung  pada  warga:  formulir  yang  diisi  berulang,  dokumen  yang  dikumpulkan 
+berkali-kali, dan waktu tunggu layanan yang panjang. Dengan terwujudnya Layer 
+4  (Service  Layer)  model  ini,  layanan  berbasis  single-view  NIK  memungkinkan 
+warga   cukup   terdaftar   sekali   di   Dukcapil   untuk   mengakses   semua   layanan 
+pemerintah. Respons layanan sosial pun lebih cepat   pencairan bansos dan rujukan 
+kesehatan  dapat  memanfaatkan  data  warga  secara  real -time  tanpa  rekonsiliasi 
+manual. 
+C. Penyelamatan Program Satu Data Indonesia 
+BRIN   (2023)   mengidentifikasi   bahwa   program   Satu   Data   Indonesia 
+menghadapi  stagnasi  akibat  dua  masalah  mendasar:  perbedaan  standar  metadata 
+lintas  instansi  dan  pendekatan  top-down  yang  menciptakan  resistensi.  Model  ini 
+secara   langsung   menjawab   keduanya:   Lay er   1   (Governance)   membangun 
+----------------Page (11) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 13 dari 16
+ 
+mekanisme  Data  Steward  Committee  yang  bersifat  horizontal  dan  kolaboratif, 
+sementara  Layer  2  (Domain)  menetapkan  standar  metadata  bersama  per  domain 
+yang mengikat secara konsensus. Model ini bukan bersaing dengan SDI  model ini 
+adalah mekanisme implementasi yang selama ini belum dimiliki SDI. 
+D. Fondasi AI Government 2045 
+Wirtz, Weyerer, dan Geyer (2019) menegaskan bahwa penerapan Analytical 
+AI  dan  Autonomous  AI  di  pemerintahan  mensyaratkan  data  yang  berkualitas, 
+konsisten,  dan  dapat  diakses  lintas  instansi.  Tanpa  ekosistem  interoperabilitas, 
+sistem AI pemerintah hanya bisa  beroperasi dengan data parsial dari satu instansi. 
+Dengan ekosistem Layer 1–4 yang berjalan pada 2035–2045, pemerintah Indonesia 
+akan  memiliki  data  lintas  34+  kementerian  yang  terstandarisasi,  fondasi  bagi 
+predictive analytics kebutuhan layanan publik, da n infrastruktur untuk pemodelan 
+kebijakan berbasis data nasional yang utuh. Model interoperabilitas SPBE ini bukan 
+sekadar  proyek  integrasi  sistem   melainkan  investasi  infrastruktur  data  nasional 
+yang hasilnya akan dirasakan selama beberapa dekade ke depan. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BAB 3 
+KESIMPULAN 
+Rancangan   Model   Interoperabilitas   SPBE   Berbasis   Federated   Data 
+Governance  yang  diusulkan  dalam  naskah  ini  merupakan  jawaban  sistemik  atas 
+kegagalan integrasi layanan digital pemerintah   bukan dengan menambah aplikasi 
+baru  atau  sentralisasi  data  secara  paksa,  melainkan  dengan  menetapkan  aturan 
+kepemilikan  dan  standar  data  yang  disepakati  bersama.  Berbeda  dengan  inisiatif 
+sebelumnya  yang  cenderung  terjebak  pada  pendekatan  top-down  dan  langsung 
+----------------Page (12) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 14 dari 16
+ 
+melompat  pada  perakitan  teknis  tanpa  tata  kelola  yang  mengikat  (BRIN,  2023), 
+model empat layer ini mengunggulkan pendekatan governance-first. 
+Realisasi  gagasan  ini  sangat  layak  dieksekusi  (feasible)  karena  tidak 
+membutuhkan perombakan struktur birokrasi, penambahan anggaran infrastruktur 
+secara  masif,  maupun  penerbitan  undang-undang  baru.  Mengikuti  prinsip  Non-
+Invasive  Data  Governance  (Seiner,  2014),  model  ini  dibangun  di  atas  fondasi 
+regulasi yang sudah tersedia, yakni Perpres No. 132/2022 tentang Arsitektur SPBE 
+dan  Permenkomdigi  No.  6/2025  tentang  Standar  Teknis  Aplikasi.  Aktor-aktor 
+penggeraknya pun telah siap beroperasi: Kementerian Komdigi sebagai koordinator 
+arsitektur   teknologi,   Kementerian   PAN -RB   yang   cukup   menerbitkan   SK 
+pembentukan   Data   Steward   Committee,   BSSN   sebagai   pengawal   standar 
+keamanan, serta Kementerian Keuangan dan Dukcapil sebagai instansi pilot tahap 
+awal. 
+Meskipun terlihat ambisius, implementasi penuh ekosistem interoperabilitas 
+ini dapat dicapai secara proporsional dalam bentang waktu 20 tahun (2025 –2045). 
+Periode  ini  sangat  realistis  jika  mengambil  preseden  dari  Estonia,  yang  juga 
+membutuhkan   waktu   dua   dasawarsa   untuk   membangun   dan   mematangkan 
+ekosistem  X-Road  hingga menjadi  benchmark  global  (Kalvet,  2012). Empat fase 
+implementasi  yang  dirancang    Fondasi  Governance  (2025–2027),  Standarisasi 
+Domain (2027–2030), Integrasi Nasional (2030–2035), dan AI Government (2035–
+2045)  memastikan transisi yang berkesinambungan. 
+Bila  gagasan  ini  diterapkan  secara  persisten,  dampak  sistemiknya  akan 
+menjangkau   berbagai   aspek:   penghematan   APBN   dari   penurunan   duplikasi 
+pengadaan sistem TI, peningkatan skor domain interoperabilitas pada Indeks SPBE 
+Nasional, dan pada puncaknya, Indonesia memiliki infrastruktur data yang tangguh 
+dan terintegrasi penuh sebagai prasyarat krusial bagi penerapan kecerdasan buatan 
+di  sektor  publik  (Wirtz  et  al.,  2019).  Dengan  merintis  federated  data  governance 
+hari  ini,  Indonesia  tengah  membentangkan  karpet  m  erah  menuju  tata  kelola 
+pemerintahan   masa   depan   yang   responsif,   terintegrasi,   dan   presisi   demi 
+menyongsong visi Indonesia Emas 2045. 
+ 
+DAFTAR PUSTAKA 
+Badan  Riset  dan  Inovasi  Nasional  (BRIN).  (2023).  Masih  Top-Down:  BRIN  Ungkap 
+Hambatan  Implementasi  Satu  Data  Indonesia  (SDI).  Pusat  Riset  Pemerintahan 
+Dalam  Negeri  BRIN.  https://www.brin.go.id/news/121875/masih-top-down-brin-
+ungkap-hambatan-implementasi-satu-data-indonesia 
+Badan  Siber  dan  Sandi  Negara.  (2021).  Peraturan  BSSN  Nomor  4  Tahun  2021  tentang 
+Pedoman   Manajemen   Keamanan   Informasi   Sistem   Pemerintahan   Berbasis 
+Elektronik  dan  Standar  Teknis  dan  Prosedur  Keamanan  Sistem  Pemerintahan 
+----------------Page (13) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 15 dari 16
+ 
+Berbasis Elektronik. BSSN. https://peraturan.bpk.go.id/Details/174275/peraturan-
+bssn-no-4-tahun-2021 
+DAMA  International.  (2017).  DAMA-DMBOK:  Data Management  Body  of  Knowledge 
+(2nd ed.). Technics Publications. 
+Dehghani,     Z.     (2020).     The     Data     Mesh     Shift.     Thoughtworks     Whitepaper. 
+https://www.thoughtworks.com/content/dam/thoughtworks/documents/whitepape
+r/tw_whitepaper_data_mesh_English.pdf 
+Eynon, R.,  &  Margetts,  H.  (2007).  Organisational Solutions  for  Overcoming Barriers  to 
+eGovernment. European Journal of ePractice, 1(1), 72–85. 
+Haslhofer,  B.,  &  Klas,  W.  (2010).  A  Survey  of  Techniques  for  Achieving  Metadata 
+Interoperability.      ACM      Computing      Surveys     (CSUR),      42(2),      1-37. 
+https://dl.acm.org/doi/10.1145/1509096.1509111 
+Heeks, R. (2003). Most eGovernment -for-Development Projects Fail: How Can Risks be 
+Reduced?.  iGovernment  Working  Paper  Series,  14.  Institute  for  Development 
+Policy and Management, University of Manchester. 
+Heeks,  R.  (2006).  Implementing  and  Managing  eGovernment:  An  International  Text. 
+SAGE Publications. 
+Kalvet,  T.  (2012).  Innovation:  A  Factor  Explaining  e-Government  Success  in  Estonia. 
+Electronic      Government:      An      International     Journal,      9(2),      142–157. 
+https://doi.org/10.1504/EG.2012.046266 
+Kementerian Komunikasi dan Informatika RI. (2019). Peraturan Presiden Nomor 95 Tahun 
+2018 tentang Sistem Pemerintahan Berbasis Elektronik. Jakarta: Kemenkominfo. 
+Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi. (2022). Laporan 
+Indeks SPBE Nasional 2022. KemenPAN-RB. 
+Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi. (2024). Akselerasi 
+Pemerintahan  Digital  Melalui  Pemanfaatan  Arsitektur  SPBE.  KemenPAN-RB. 
+https://www.menpan.go.id/site/berita-terkini/akselerasi-pemerintahan-digital-
+melalui-pemanfaatan-arsitektur-spbe 
+Klischewski, R., & Scholl, H. J. (2008). Information Quality as Capstone in Negotiating e-
+Government    Integration,    Interoperability,    and    Cooperability.    Government 
+Information Quarterly, 25(2), 203–225. https://doi.org/10.1016/j.giq.2007.04.010 
+Loutas, N., dkk. (2022). GLASS: A Citizen-Centric Distributed Data-Sharing Model within 
+an      e-Governance      Architecture.      arXiv      preprint,      arXiv:2203.08781. 
+https://arxiv.org/abs/2203.08781 
+Maghfirra, D. (2024). Satu Data Indonesia: Bridging the Governance Gap. The World Bank 
+Group                                                                                                  Presentations. 
+https://thedocs.worldbank.org/en/doc/15f75c2212bc4df3aa1fc764e8af7346-
+0070012024/related/Dini-Maghfirra-Satu-Data-Indonesia-ENG.pdf 
+Nugroho, R. A., Hamid, A. H., & Pratama, D. (2021). Evaluasi Layanan Digital Berbasis 
+ERP di Kota Tangerang: Studi Super Mantab. Jurnal Studi Pemerintahan, 12(3), 
+310–330. 
+----------------Page (14) Break----------------
+PKM-GFT | Model Interoperabilitas SPBE Berbasis Federated Data Governance
+ 
+Halaman 16 dari 16
+ 
+OECD. (2019). Data Governance in the Public Sector. OECD Digital Government Studies. 
+DOI: https://doi.org/10.1787/9a1a7c61-en 
+Ombudsman   Republik   Indonesia.   (2022).   Dualisme   Interoperabilitas   Data   Sektor 
+Pelayanan  Publik  Menuju  Sistem  Pemerintahan  Berbasis  Elektronik  (SPBE). 
+Laporan                          Kajian                          Kebijakan                          Internal. 
+https://ombudsman.go.id/news/download/pwkinternal  --dualisme-
+interoperabilitas-data-sektor-pelayanan-publik-menuju-sistem-pemerintahan-
+berbasis-elektronik-spbe 
+Peraturan Presiden Nomor 39 Tahun 2019 tentang Satu Data Indonesia. JDIH BPK RI.   
+Peraturan  Presiden  Nomor  132  Tahun  2022  tentang  Arsitektur  Sistem  Pemerintahan 
+Berbasis             Elektronik             Nasional.             JDIH             BPK             RI. 
+https://peraturan.bpk.go.id/Details/234764/perpres -no-132-tahun-2022 
+Peraturan Menteri Komunikasi dan Digital Nomor 6 Tahun 2025 tentang Standar Teknis 
+Aplikasi SPBE. JDIH.  
+Permana,  R.  M.,  &  Susanto,  T.  D.  (2024).  Data  Governance  Design  Based  on  DAMA-
+DMBOK  Framework:  A  Review  and  Case  Study  in  Indonesia.  International 
+Journal          of          Research          and          Review,          11(8),          241   -255. 
+https://www.ijrrjournal.com/IJRR_Vol.11_Issue.8_August2024/IJ RR23.pdf 
+Pratama,  A.  (2023).  Urgensi  Kebijakan  Berbasis  Data  (Data-Driven  Policy)  dan  Residu 
+Silo Mentality pada Birokrasi Pemerintahan. Jurnal Parlementer, 8(1), 112  -126. 
+Putra,  A.  S.,  Santoso,  H.  B.,  &  Hasibuan,  Z.  A.  (2023).  Mapping  SPBE  Challenges  in 
+Indonesia: A Domain Architecture Perspective. Jurnal Sistem Informasi, 19(1), 1  -
+18. 
+Seiner,  R.  S.  (2014).  Non-Invasive  Data  Governance:  The  Path  of  Least  Resistance  and 
+Greatest Success. Technics Publications.  
+Themistocleous,  M.,  &  Irani,  Z.  (2001).  Benchmarking  the  Benefits  and  Barriers  of 
+Application Integration. Benchmarking: An International Journal, 8(4), 317  –331. 
+UN Global Pulse Asia Pacific. (2024). New Administration, New Governance: Envisioning 
+the   Trajectory   of   Data   Governance   in   Indonesia.   Medium   Publications. 
+https://medium.com/un -global-pulse-ap/new-administration -new-governance-
+envisioning -the-trajectory-of-data-governance-in-indonesia-605542bd1fd5 
+Wiradharma,  A., &  Nugroho,  L.  E.  (2020).  Evaluasi  Implementasi  Sistem  Pemerintahan 
+Berbasis  Elektronik  di  Indonesia:  Studi  Kasus  Kementerian  Keuangan.  Jurnal 
+Informatika dan Rekayasa Perangkat Lunak, 2(1), 45–58. 
+Wirtz,  B.  W.,  Weyerer,  J.  C.,  &  Geyer,  C.  (2019).  Artificial  Intelligence  and  the  Public 
+SectorApplications     and     Challenges.     International     Journal     of     Public 
+Administration, 42(7), 596–615. https://doi.org/10.1080/01900692.2018.1498103 
+World Bank. (2020). Unraveling Data's Gordian Knot: Enablers and Safeguards for Trusted 
+Data Sharing in the New Economy. World Bank Group. 
+Yuliana, dkk. (2023). Analisis Implementasi SPBE pada Kementerian BUMN: Tantangan 
+dan  Rekomendasi.  Inovasi:  Jurnal  Ekonomi,  Keuangan,  dan  Manajemen,  19(2), 
+340–350. 
+----------------Page (15) Break----------------
